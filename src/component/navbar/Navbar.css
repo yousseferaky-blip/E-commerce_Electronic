@@ -1,0 +1,116 @@
+
+nav{
+    position: fixed;
+    top: 20px ;
+    left: 0;
+    width: 90%;
+    height: 72px;
+    background: #bac4c8;
+    border-radius: 20px;
+    margin-top: 0px ;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.link{
+    text-decoration: none;
+    position: relative;
+}
+
+ .Icon-Nav{
+    color: rgb(95, 97, 97);
+    font-size: 25px;
+}
+
+ i:hover{
+    color: #000;
+}
+
+
+.Info-Nav{
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    margin-left: 10px;
+}
+
+
+.Shopping-Nav{
+    color: rgb(39, 56, 39);
+    font-size: 20px;
+    position: absolute;
+    top: -20px;
+    right: -13px;
+}
+
+ .fa-bag-shopping{
+    color: rgb(15, 116, 15);
+    font-size: 25px;
+}
+
+.Heart-Nav{
+    color: rgb(39, 56, 39);
+    font-size: 20px;
+    position: absolute;
+    top: -20px;
+    right: -15px;
+}
+
+.fa-heart{
+    color: rgb(233, 63, 63);
+    font-size: 25px;   
+    z-index: 99;
+}
+
+.BARS{
+    display: none;
+    margin-top: 25px;
+    padding: 10px 0;
+}
+
+@media screen and (max-width:700px){
+
+    .BARS{
+        display: block;
+    }
+
+    .Nav-Link{
+        display: none;
+    }
+
+    nav .Nav-Mobil{
+        position: absolute;
+        top: 55px;
+        left: 0px;
+        width:90%;
+        height: 60vh;
+        background: #dadada;
+        border-radius: 20px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        z-index: 10;
+        box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+        display: flex;
+        flex-direction: column;
+        padding: 0 30px;
+    }
+   
+    nav .Nav-Mobil li{
+        margin-top: 35px;
+    }
+}
+
+
+
+

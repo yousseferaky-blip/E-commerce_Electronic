@@ -1,0 +1,61 @@
+
+
+.Container-Details{
+    margin-top: 110px;
+    padding: 20px;
+}
+
+.Content-Details{
+    width: 100vw;
+    padding: 10px 8px;
+    background: #bac4c8;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.Container-Details-Img{
+    width: 45%;
+}
+
+.Container-Details-Img img{
+    width: 100%;
+    border-radius: 6px;
+}
+
+
+.Container-Details-Info{
+    margin-left: 20px;
+}
+
+.Description{
+    color: #535353;
+    width: 90%;
+}
+
+.Title{
+    color: #525252;
+}
+
+.Price{
+    color: #000;
+    font-size: 30px;
+}
+
+.Brand{
+    color: #525252;
+}
+
+@media screen and (max-width:900px) {
+    
+    .Content-Details{
+        width: 85vw;
+        flex-direction: column;
+    }
+
+    .Container-Details-Img{
+        width: 50%;
+       
+    }
+
+}

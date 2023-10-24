@@ -1,0 +1,89 @@
+
+
+.Container-Fav{
+    margin-top: 110px;
+    position: relative;
+    background: #b8bcbd;
+    padding: 20px;
+    border-radius: 6px;
+    width: 90%;
+}
+
+.Content-Fav {
+    margin: 10px 0;
+    background: #e0e0e0;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    padding: 20px;
+    position: relative;
+}
+
+
+.Content-Fav-Img {
+    width: 250px;
+}
+
+.Content-Fav-Img img{
+    width: 100%;
+    border-radius: 6px;
+}
+
+.Content-Fav-Info{
+    margin-left: 20px;
+}
+
+
+.Content-Fav-Info-description{
+    width: 90%;
+    color: #999999;
+    letter-spacing: 1.1px;
+}
+
+.Delete-Fav{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.Favourite{
+    position: fixed;
+    top: 53px;
+    right: 60px;
+    background: #cecece;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 99;
+
+}
+.Favourite i{
+    margin-left: 5px;
+}
+
+
+@media screen and (max-width:950px) {
+
+    .Content-Fav {
+        flex-direction: column;
+        text-align: center;
+    }
+    .Favourite{
+        padding: 15px;
+        right: 40px;
+    }
+    
+}
+
+@media screen and (max-width:500px) {
+    .Delete-Fav{
+        top: -10px;
+        right: 20px;
+    }
+    .Favourite{
+        padding: 10px;
+        right: 25px;
+    }
+    
+}
+

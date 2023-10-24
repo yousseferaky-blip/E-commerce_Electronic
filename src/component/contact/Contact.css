@@ -1,0 +1,53 @@
+
+.Container-Contact{
+    margin-top: 120px;
+    background: #bac4c8;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+.Container-Contact-Left{
+    margin: 0 auto;
+}
+
+.Container-Contact .Title{
+    color: #474747;
+    font-size: 35px;
+}
+
+
+.Container-Contact .Title span{
+    color: green;
+}
+
+.Container-Contact ul li{
+    margin-right: 20px;
+}
+
+.Container-Contact ul li i{
+    cursor: pointer;
+    color: #696969;
+}
+
+.Container-Contact h5{
+    color: #696969;
+}
+
+.Container-Contact h5 span{
+    color: green;
+}
+
+.Container-Contact-Right{
+    margin: 0 auto;
+}
+
+@media screen and (max-width:550px) {
+    .Container-Contact{
+       flex-direction: column;
+    }
+    
+}
+
+

@@ -1,0 +1,135 @@
+
+.Container-Cart{
+    margin-top: 150px;
+}
+
+.Content-Cart{
+    background: #b8bcbd;
+    padding: 20px;
+    border-radius: 6px;
+    width: 90%;
+    margin: 10px;
+}
+
+.Cart-Card{
+    position: relative;
+    background: #e0e0e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.Cart-Card-Img{
+    width: 250px;
+}
+
+.Cart-Card-Img img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Cart-Card-Info{
+    display: flex;
+    align-items: center;
+}
+
+.Cart-Card-Title{
+    font-size: 25px;
+    margin-right: 55px;
+}
+
+.Cart-Card-Info-Des{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.Cart-Card-Info button{
+    width: 32px;
+    height: 32px;
+    border: none;
+    background: #b8bcbd;
+    color: #000;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.Cart-Card-Info button:hover{
+    background: #000;
+    color: #b8bcbd;
+}
+
+.Item-Price{
+    margin-left: 25px;
+    font-weight: 900;
+}
+
+.Item-Price span{
+    color: green;
+}
+
+.fa-circle-xmark{
+    cursor: pointer;
+}
+
+.Total-Card{
+    position: fixed;
+    top: 55px;
+    right: 60px;
+    background: #b8bcbd;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 99;
+}
+
+.Total-Card span{
+    color: green;
+    margin-left: 10px;
+}
+
+@media screen and (max-width:950px) {
+
+    .Cart-Card{
+        flex-direction: column;
+    }
+
+
+    .fa-circle-xmark{
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+
+    .Total-Card{
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    .Cart-Card-Info{
+       flex-direction: column;
+    }
+    
+    .fa-circle-xmark{
+        top: -20px;
+    }
+    
+    .Total-Card{
+        padding: 10px;
+    }
+    .Total-Card{
+        right: 25px;
+    }
+}
+
+
+
+
+
+
+
